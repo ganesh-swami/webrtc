@@ -13,7 +13,7 @@ export default class VideoBox extends Component {
   constructor(props) {
     super(props);
 
-    this.timeLimit=90000;
+    this.timeLimit=30000;
     this.state = {
       redirect: null,
       userReady: false,
